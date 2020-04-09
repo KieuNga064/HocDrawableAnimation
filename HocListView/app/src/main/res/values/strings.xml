@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HocListView</string>
+    <string-array name="arrTinhThanh">
+        <item>An Giang	</item>
+        <item>Bà Rịa - Vũng Tàu	</item>
+        <item>Bắc Giang	</item>
+        <item>Bắc Kạn	</item>
+        <item>Bạc Liêu	</item>
+        <item>Bắc Ninh	</item>
+        <item>Bến Tre	</item>
+        <item>Bình Định	</item>
+        <item>Bình Dương	</item>
+        <item>Bình Phước	</item>
+        <item>Bình Thuận	</item>
+        <item>Cà Mau	</item>
+        <item>Cao Bằng	</item>
+        <item>Đắk Lắk	</item>
+        <item>Đắk Nông	</item>
+        <item>Điện Biên	</item>
+        <item>Đồng Nai	</item>
+        <item>Đồng Tháp	</item>
+        <item>Gia Lai	</item>
+        <item>Hà Giang	</item>
+
+    </string-array>
+</resources>

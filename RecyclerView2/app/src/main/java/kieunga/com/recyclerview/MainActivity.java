@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                         contactAdapter.notifyDataSetChanged();
                         contactAdapter.isLoading=false;
                     }
-                },3000);
+                },5000);
             }
         });
     }

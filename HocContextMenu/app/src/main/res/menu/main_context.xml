@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/mnuMauDo"
+        android:title="Tô màu đỏ" />
+    <item
+        android:id="@+id/mnuMauVang"
+        android:title="Tô màu vàng" />
+    <item
+        android:id="@+id/mnuMauXanh"
+        android:title="Tô màu xanh" />
+</menu>

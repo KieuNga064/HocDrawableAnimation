@@ -1,0 +1,2 @@
+rootProject.name='HocKaraoke'
+include ':app'

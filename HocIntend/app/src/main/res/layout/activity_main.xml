@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mở một màn hình che khuất toàn bộ"
+        android:onClick="moManHInhCheKhuatToanBo"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mở màn hình che khuất một phần"
+        android:onClick="moManHinhCheKhuatMotPhan"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="mời nhập"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mở màn hình và gửi dữ liệu"
+        android:onClick="guiDuLieu"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập một số nguyên dương"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gửi 1 số nhận 1 danh sách"
+        android:onClick="xuLyDuLieu"/>
+
+    <ListView
+        android:id="@+id/lvDs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
